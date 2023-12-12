@@ -4,3 +4,4 @@ project(Ejercicio_5)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Ejercicio_5 main.cpp)
+add_executable(ProgramacionFuncional ProgramacionFuncional.cpp)

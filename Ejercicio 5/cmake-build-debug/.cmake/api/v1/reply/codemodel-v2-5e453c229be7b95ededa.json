@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "Ejercicio_5",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "Ejercicio_5::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Ejercicio_5-Debug-c052f79d84c6fbd47b21.json",
 					"name" : "Ejercicio_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProgramacionFuncional::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProgramacionFuncional-Debug-9269597ae45f41bc7973.json",
+					"name" : "ProgramacionFuncional",
 					"projectIndex" : 0
 				}
 			]
