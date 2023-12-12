@@ -17,4 +17,14 @@ public:
 class ListaEstudiantes {
 private:
     std::vector<Estudiante> estudiantes;
+public:
+    void agregarEstudiante(Estudiante est) {
+        estudiantes.push_back(est);
+    }
+
+    void imprimirEstudiantes() {
+        for (int i = 0; i < estudiantes.size(); i++) {
+            estudiantes[i].imprimir();
+        }
+    }
 };
