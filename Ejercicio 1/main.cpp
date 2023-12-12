@@ -30,3 +30,10 @@ void agregarEstudiante(Estudiante est) {
         actual->siguiente = nuevo;
     }
 }
+void mostrarEstudiantes() {
+    Nodo *actual = primero;
+    while (actual != NULL) {
+        printf("Nombre: %s, Edad: %d, Promedio: %.2f\n", actual->estudiante.nombre, actual->estudiante.edad, actual->estudiante.promedio);
+        actual = actual->siguiente;
+    }
+}
