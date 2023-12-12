@@ -7,3 +7,5 @@ typedef struct {
     int edad;
     float promedio;
 } Estudiante;
+
+int main() {
