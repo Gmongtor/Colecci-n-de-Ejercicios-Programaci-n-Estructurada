@@ -37,3 +37,14 @@ void mostrarEstudiantes() {
         actual = actual->siguiente;
     }
 }
+void eliminarEstudiante(char *nombre) {
+    Nodo *actual = primero, *anterior = NULL;
+    while (actual != NULL && strcmp(actual->estudiante.nombre, nombre) != 0) {
+        anterior = actual;
+        actual = actual->siguiente;
+    }
+    if (actual == NULL) return;
+    if (anterior == NULL) primero = actual->siguiente;
+    else anterior->siguiente = actual->siguiente;
+    free(actual);
+}
