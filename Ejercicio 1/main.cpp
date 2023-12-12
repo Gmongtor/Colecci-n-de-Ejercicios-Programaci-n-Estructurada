@@ -12,3 +12,6 @@ typedef struct nodo {
     Estudiante estudiante;
     struct nodo *siguiente;
 } Nodo;
+
+Nodo *primero = NULL;
+
