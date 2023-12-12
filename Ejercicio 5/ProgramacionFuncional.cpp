@@ -15,3 +15,6 @@ public:
     }
 };
 class ListaEstudiantes {
+private:
+    std::vector<Estudiante> estudiantes;
+};
