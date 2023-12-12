@@ -28,3 +28,12 @@ public:
         }
     }
 };
+int main() {
+    ListaEstudiantes lista;
+    lista.agregarEstudiante(Estudiante("Juan Pérez", 20, 8.5));
+    lista.agregarEstudiante(Estudiante("Ana Gómez", 22, 9.1));
+
+    lista.mostrarEstudiantes();
+
+    return 0;
+}
