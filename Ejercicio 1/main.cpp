@@ -48,3 +48,19 @@ void eliminarEstudiante(char *nombre) {
     else anterior->siguiente = actual->siguiente;
     free(actual);
 }
+int main() {
+    agregarEstudiante((Estudiante) {"Juan Pérez", 20, 8.5});
+    agregarEstudiante((Estudiante) {"Ana Gómez", 22, 9.1});
+    agregarEstudiante((Estudiante) {"Sergio", 16, 5.5});
+    agregarEstudiante((Estudiante) {"María", 18, 7.5});
+
+    mostrarEstudiantes();
+
+    eliminarEstudiante("Sergio");
+
+    printf("\nDespués de eliminar a Sergio:\n\n");
+
+    mostrarEstudiantes();
+
+    return 0;
+}
