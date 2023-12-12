@@ -7,3 +7,8 @@ typedef struct {
     int edad;
     float promedio;
 } Estudiante;
+
+typedef struct nodo {
+    Estudiante estudiante;
+    struct nodo *siguiente;
+} Nodo;
