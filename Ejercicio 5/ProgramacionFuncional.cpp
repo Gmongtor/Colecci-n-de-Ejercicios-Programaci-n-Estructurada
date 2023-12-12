@@ -14,3 +14,4 @@ public:
         std::cout << "Nombre: " << nombre << "\nEdad: " << edad << "\nPromedio: " << promedio << std::endl;
     }
 };
+class ListaEstudiantes {
