@@ -15,3 +15,4 @@ int main() {
     estudiante1.edad = 20;
     estudiante1.promedio = 8.5;
 
+    printf("Nombre: %s, Edad: %d, Promedio: %.2f\n", estudiante1.nombre, estudiante1.edad, estudiante1.promedio);
