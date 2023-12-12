@@ -15,3 +15,18 @@ typedef struct nodo {
 
 Nodo *primero = NULL;
 
+void agregarEstudiante(Estudiante est) {
+    Nodo *nuevo = (Nodo *) malloc(sizeof(Nodo));
+    nuevo->estudiante = est;
+    nuevo->siguiente = NULL;
+
+    if (primero == NULL) {
+        primero = nuevo;
+    } else {
+        Nodo *actual = primero;
+        while (actual->siguiente != NULL) {
+            actual = actual->siguiente;
+        }
+        actual->siguiente = nuevo;
+    }
+}
