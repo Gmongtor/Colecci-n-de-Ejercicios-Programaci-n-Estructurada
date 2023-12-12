@@ -3,4 +3,4 @@ project(Ejercicio_1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Ejercicio_1 main.cpp Constitucion.cpp InstanciacionDeEstructuras.cpp InstitucionDelOperador.cpp Organizacion.cpp PunterosEstructuras.cpp)
+add_executable(Ejercicio_1 main.cpp InstitucionDelOperador.cpp PunterosEstructuras.cpp)
