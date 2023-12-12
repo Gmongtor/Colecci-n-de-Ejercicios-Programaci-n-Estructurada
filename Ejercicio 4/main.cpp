@@ -9,3 +9,9 @@ typedef struct {
 } Estudiante;
 
 int main() {
+
+    Estudiante estudiante1;
+    strcpy(estudiante1.nombre, "Juan Pérez");
+    estudiante1.edad = 20;
+    estudiante1.promedio = 8.5;
+
